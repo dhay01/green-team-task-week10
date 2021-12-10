@@ -1,0 +1,178 @@
+* {
+    background-color: #496957;
+    font-family: 'Patrick Hand' !important;
+
+   
+}
+
+.container-fluid {
+    padding-top: 30px;
+    padding-bottom: 110px;
+    background-color: #496957;
+    color: #25342b;
+}
+
+#heading {
+    font-size: 40px;
+    margin-top: 40px;
+    font-weight: normal;
+ 
+   
+    }
+
+#heading:hover {
+    transition: all .5s ease;
+    letter-spacing: 2px;
+    
+}
+.line {
+    background-color: #ffffff;
+    border-radius: 50px;
+    border: none;
+    padding: 2px;
+    height: 4px;
+    width: 100px;
+    margin-top: 5px
+}
+
+.vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 75%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-100%)
+}
+
+@media (max-width: 768px) {
+    .vertical-center {
+        margin: 0;
+        position: relative;
+        top: 0;
+        -ms-transform: translateY(100);
+        transform: translateY(100)
+    }
+}
+
+.gap {
+    height: 130px
+}
+
+@media (max-width: 768px) {
+    .gap {
+        height: 0
+    }
+}
+
+.image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: -20%;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%
+}
+
+.image-name {
+    font-weight: bold
+}
+
+.fit-image {
+    width: 100%;
+    object-fit: cover
+}
+
+.no1 {
+   margin-left: -5%;
+   margin-top: -12%;
+  
+}
+
+.no2 {
+    margin-left: -5%;
+    margin-top: 50%;  
+}
+
+.no3 {
+    margin-top: -16%;
+    margin-right: -30%;
+}
+
+.no4 {
+
+   margin-right: 68%;
+   margin-top: 50%;
+  
+}
+
+.no5 {
+   margin-top: 40%;
+   margin-left: 35%;
+  
+}
+
+.card {
+    border-radius:95% 4% 97% 5%/4% 94% 3% 95%;
+    background-color: #e4efe9;
+    border-radius: 15px;
+    box-shadow: 5px 10px rgba(0, 0, 0, 0.9);
+    border: black solid;
+    
+}
+.card:hover {
+    transform: scale(1.1);
+    
+    border-radius: 25px;
+    transition: all .5s ease;
+    box-shadow: 0 0 2px #fff, 0 0 10px #fff, 0 0 20px #0bca87, 0 0 30px #33e459,
+      0 0 40px #0ba9ca, 0 0 50px #1dc755;
+    -webkit-animation: blink 0.7s infinite alternate;
+    animation: blink 0.7s infinite alternate;
+}
+
+.textt {
+    background-color:#e4efe9
+    ;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 .textt .mt-2 .text-center .image-name p .p {
+    font-family: 'Acme', sans-serif;
+}
+
+
+
+
+.bubble {
+   
+    max-width: 500px;
+   
+    margin: 2rem 0;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 0.2rem 1.25rem;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    font-size: 2rem;
+    letter-spacing: 0.2rem;
+    background: url('data:image/svg+xml;utf8,<svg width="100" height="100" transform="rotate(25)" opacity="0.3" version="1.1" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><g  fill="%23250E17"><circle cx="25" cy="25" r="12.5"/><circle cx="75" cy="75" r="12.5"/><circle cx="75" cy="25" r="12.5"/><circle cx="25" cy="75" r="12.5"/></g></svg>'),
+      #fff;
+    background-size: 12px, 100%;
+   background-color: rgba(255, 255, 255, 0.9);
+    border: 0.4rem solid #000;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+   
+    font-style: italic;
+    font-weight: bolder;
+    box-shadow: 5px 10px rgba(0, 0, 0, 0.9);
+    border-radius:95% 4% 97% 5%/4% 94% 3% 95%;
+   
+   
+  }
+  
+  
